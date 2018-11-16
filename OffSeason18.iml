@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="FRC_FACET" name="FRC">
+      <configuration />
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/src/falcons/frc_18/commands" />
+      <excludeFolder url="file://$MODULE_DIR$/src/falcons/frc_18/control" />
+      <excludeFolder url="file://$MODULE_DIR$/src/falcons/frc_18/fields" />
+      <excludeFolder url="file://$MODULE_DIR$/src/falcons/frc_18/simulation" />
+      <excludeFolder url="file://$MODULE_DIR$/src/falcons/frc_18/subsystems" />
+      <excludeFolder url="file://$MODULE_DIR$/src/falcons/frc_18/telem" />
+      <excludeFolder url="file://$MODULE_DIR$/src/falcons/generic" />
+    </content>
+    <content url="file://$MODULE_DIR$/src/falcons/frc/command_system" />
+    <content url="file://$MODULE_DIR$/src/falcons/frc/logging" />
+    <content url="file://$MODULE_DIR$/src/falcons/frc/simulation" />
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="WPILib Libraries" level="project" />
+    <orderEntry type="library" name="WPILib User Lib Directory" level="project" />
+  </component>
+</module>
