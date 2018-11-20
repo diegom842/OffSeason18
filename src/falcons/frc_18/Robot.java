@@ -75,16 +75,16 @@ public class Robot extends IterativeRobot
     @Override
     public void teleopPeriodic()
     {
-        rotation =  -joy.getRawAxis(0);
-        throttle = joy.getRawAxis(1);
+        throttle =  joy.getRawAxis(0);
+        rotation = joy.getRawAxis(1);
 
         leftTalA.set(throttle + rotation);
         leftTalB.set(throttle + rotation);
         leftTalC.set(throttle + rotation);
 
-        rightTalA.set(throttle - rotation);
-        rightTalB.set(throttle - rotation);
-        rightTalC.set(throttle - rotation);
+        rightTalA.set(-1 * (throttle - rotation));
+        rightTalB.set(-1 * (throttle - rotation));
+        rightTalC.set(-1 * (throttle - rotation));
     }
 
     @Override
